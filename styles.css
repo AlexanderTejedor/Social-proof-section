@@ -137,3 +137,47 @@ body{
 .card-content__description{
     line-height: 1.5;
 }
+
+/*========== media querys ===========*/
+
+
+/*========== tablet ==========*/
+@media screen and (min-width: 580px){
+    .main-container{
+        max-width: 580px;
+    }
+}
+/*========== desktop ==========*/
+@media screen and (min-width: 1040px){
+    body{
+        height: 100dvh;
+        justify-content: center;
+        align-items: center;
+    }
+    .main-container{
+        max-width: 1200px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+    .main-content{
+        max-width: 400px;
+        justify-content: start;
+        align-items: start;
+        text-align: left;
+    }
+    .main-content__title span{
+        margin-right: 1rem;
+    }
+    .main-content__title,
+    .main-content__title span{
+        font-size: 3.5rem;
+    }
+    .rated-container{
+        max-width: 50%;
+    }
+    .card-container{
+        flex-direction:  row;
+    }
+}
