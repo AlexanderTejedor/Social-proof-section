@@ -31,7 +31,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [GitHub Repo](https://github.com/AlexanderTejedor/Social-proof-section)
-- Live Site URL: [GitHub Pages](https://alexandertejedor.github.io/Profile-card-component/)
+- Live Site URL: [GitHub Pages](https://alexandertejedor.github.io/Social-proof-section/)
 
 ## My process
 
